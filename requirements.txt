@@ -3,10 +3,14 @@ aiohttp==3.8.4
 asyncio==3.4.3
 beautifulsoup4
 dnspython
+blackpink
+pycountry
 ffmpeg-python
 gitpython
 hachoir
 heroku3
+pykeyboard
+pyshorteners
 motor==3.4.0
 pillow==9.5.0
 psutil
@@ -30,3 +34,12 @@ async_pymongo
 gpytranslate
 search_engine_parser
 gtts
+git+https://github.com/AsmSafone/SafoneAPI
+lexica-api==1.5.7
+httpx==0.25.2
+gpytranslate
+emojis
+cloudscraper
+blackpink
+pycryptodome
+pickledb
