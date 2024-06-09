@@ -19,7 +19,7 @@ async def start(_, msg):
     buttons = [
         [
           InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/the_friendz"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/LOCO-PILOT/ABC")
+          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/LOCO-PILOT/MUSIC")
           ],
     ]
     
