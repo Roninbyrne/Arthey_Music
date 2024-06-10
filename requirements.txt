@@ -43,3 +43,4 @@ cloudscraper
 blackpink
 pycryptodome
 pickledb
+Faker
