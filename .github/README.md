@@ -10,7 +10,7 @@
 
 </h2>
 <p align="center">
-  <img src="https://graph.org/file/ff3ad786da825b5205691.jpg">
+  <img src="https://telegra.ph/file/d1c75480cc38a7ab2964c.jpg">
 </p>
 
  <img src="https://readme-typing-svg.herokuapp.com?color=FF00FF&width=420&lines=🐙+🄳🄴🄿🄻🄾🅈+🄾🄽+🄷🄴🅁🄾🄺🅄+🄽🄾🅆+🐙">
@@ -19,9 +19,8 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/LOCO-PILOT/MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-008080?style=for-the-badge&logo=heroku" width="180" height="40"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/LOCO-PILOT/MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="180" height="40"/></a></p>
 
 
- <img src="https://readme-typing-svg.herokuapp.com?color=FFFF00&width=420&lines=🐉+🄹🄾🄸🄽+🄾🅄🅁+🅂🅄🄿🄿🄾🅁🅃+🄶🅁🄾🅄🄿+🐉">
-
+ 
 
