@@ -45,3 +45,6 @@ pycryptodome
 pickledb
 Faker
 pyfiglet
+qrcode
+pytz
+pydub
