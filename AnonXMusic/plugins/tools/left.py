@@ -35,12 +35,12 @@ async def get_userinfo_img(
         img = Image.open(profile_path)
         mask = Image.new("L", img.size, 0)
         draw = ImageDraw.Draw(mask)
-        draw.pieslice([(0, 0), img.size], 0, 368, fill=255)
+        draw.pieslice([(0, 0), img.size], 0, 360, fill=255)
 
         circular_img = Image.new("RGBA", img.size, (0, 0, 0, 0))
         circular_img.paste(img, (0, 0), mask)
-        resized = circular_img.resize((274, 274))
-        bg.paste(resized, (244, 164), resized)
+        resized = circular_img.resize((286, 286))
+        bg.paste(resized, (297, 117), resized)
 
 
     img_draw = ImageDraw.Draw(bg)
@@ -64,7 +64,7 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
     if (
         not member.new_chat_member
         and member.old_chat_member.status not in {
-            "banned", "left", "restricted"
+            "💌"
         }
         and member.old_chat_member
     ):
@@ -104,5 +104,5 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
             return
     else:
         # Handle the case where the user has no profile photo
-        print(f"❖ ᴜsᴇʀ {user.id} ʜᴀs ɴᴏ ᴘʀᴏғɪʟᴇ ᴘʜᴏᴛᴏ.")
-          
+        print(f"❖ User {user.id} has no profile photo.")
+      
