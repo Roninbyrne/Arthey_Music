@@ -48,3 +48,4 @@ pyfiglet
 qrcode
 pytz
 pydub
+apscheduler
