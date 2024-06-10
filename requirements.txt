@@ -44,3 +44,4 @@ blackpink
 pycryptodome
 pickledb
 Faker
+pyfiglet
