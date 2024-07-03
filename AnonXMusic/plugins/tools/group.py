@@ -12,24 +12,9 @@ async def brah(_, msg):
 
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-       await msg.reply("**❖ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ ᴏɴ ᴛʜɪs ɢʀᴏᴜᴘ.**")
+       await msg.reply("❖ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.")
 
 
-
-@app.on_message(filters.video_chat_members_invited)
-async def brah3(app :app, message:Message):
-           text = f"❖ {message.from_user.mention} ɪɴᴠɪᴛᴇᴅ "
-           x = 0
-           for user in message.video_chat_members_invited.users:
-             try:
-               text += f" [{user.first_name}](tg://user?id={user.id}) "
-               x += 1
-             except Exception:
-               pass
-           try:
-             await message.reply(f"{text} ᴛᴏ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ♥︎")
-           except:
-             pass
 
 
 ####
