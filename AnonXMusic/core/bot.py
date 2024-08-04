@@ -29,7 +29,7 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"❖<b> {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ</b>\n\n● ɪᴅ ➥ <code>{self.id}</code>\n● ɴᴀᴍᴇ ➥ {self.name}\n● ᴜsᴇʀɴᴀᴍᴇ ➥ @{self.username}",
+                text=f"❖<b> {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ</b>\n\n● ɪᴅ  <code>{self.id}</code>\n● ɴᴀᴍᴇ  {self.name}\n● ᴜsᴇʀɴᴀᴍᴇ  @{self.username}",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
@@ -38,7 +38,7 @@ class Anony(Client):
             exit()
         except Exception as ex:
             LOGGER(__name__).error(
-                f"❖ Bot has failed to access the log group/channel.\n● Reason ➥ {type(ex).__name__}."
+                f"❖ Bot has failed to access the log group/channel.\n● Reason  {type(ex).__name__}."
             )
             exit()
 
@@ -48,7 +48,7 @@ class Anony(Client):
                 "❖ Please promote your bot as an admin in your log group/channel."
             )
             exit()
-        LOGGER(__name__).info(f"❖ Music Bot Started as ➥ {self.name} ...♥︎")
+        LOGGER(__name__).info(f"❖ Music Bot Started as  {self.name} ...♥︎")
 
     async def stop(self):
         await super().stop()
