@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/@Arthey_bot?startgroup=true"),
     ],
 ]
 
@@ -32,7 +32,7 @@ async def _carbon(client, message):
     text = await message.reply("Processing...")
     carbon = await make_carbon(replied.text or replied.caption)
     await text.edit("**ᴜᴘʟᴏᴀᴅɪɴɢ...**")
-    await message.reply_photo(carbon, caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),
+    await message.reply_photo(carbon, caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ๛𝐀 𝐫 𝐭 𝐡 𝐞 𝐲 ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),
     )
     await text.delete()
     carbon.close()
