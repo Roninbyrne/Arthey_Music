@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
     ],
 ]
 
@@ -23,7 +23,7 @@ async def bored_command(client, message):
         activity = data.get("activity")
         if activity:
             # Send the activity to the user who triggered the command
-            await message.reply(f"❖ ғᴇᴇʟɪɴɢ ʙᴏʀᴇᴅ ? ʜᴏᴡ ᴀʙᴏᴜᴛ ⏤͟͟͞͞★\n\n● {activity}\n\n❖ ғᴇᴇʟɪɴɢ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),)
+            await message.reply(f"❖ ғᴇᴇʟɪɴɢ ʙᴏʀᴇᴅ ? ʜᴏᴡ ᴀʙᴏᴜᴛ ⏤͟͟͞͞★\n\n● {activity}\n\n❖ ғᴇᴇʟɪɴɢ ʙʏ : 𝐀𝐫𝐭𝐡𝐞𝐲 ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),)
         else:
             await message.reply("✦ ɴᴏ ᴀᴄᴛɪᴠɪᴛʏ ғᴏᴜɴᴅ.")
     else:
