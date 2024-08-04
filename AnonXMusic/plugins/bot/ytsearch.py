@@ -18,11 +18,11 @@ async def ytsearch(_, message: Message):
         i = 0
         text = ""
         while i < 5:
-            text += f"❖ ᴠɪᴅᴇᴏ ɴᴀᴍᴇ ➥ {results[i]['title']}\n\n"
-            text += f"● ᴠɪᴅᴇᴏ ᴅᴜʀᴀᴛɪᴏɴ ➥ {results[i]['duration']}\n"
-            text += f"● ᴠɪᴅᴇᴏ ᴠɪᴇᴡs ➥ {results[i]['views']}\n"
-            text += f"● ᴠɪᴅᴇᴏ ᴄʜᴀɴɴᴇʟ ➥ {results[i]['channel']}\n"
-            text += f"● ᴠɪᴅᴇᴏ ᴜʀʟ ➥ https://www.youtube.com{results[i]['url_suffix']}\n\n"
+            text += f"❖ ᴠɪᴅᴇᴏ ɴᴀᴍᴇ : {results[i]['title']}\n\n"
+            text += f"● ᴠɪᴅᴇᴏ ᴅᴜʀᴀᴛɪᴏɴ : {results[i]['duration']}\n"
+            text += f"● ᴠɪᴅᴇᴏ ᴠɪᴇᴡs : {results[i]['views']}\n"
+            text += f"● ᴠɪᴅᴇᴏ ᴄʜᴀɴɴᴇʟ : {results[i]['channel']}\n"
+            text += f"● ᴠɪᴅᴇᴏ ᴜʀʟ : https://www.youtube.com{results[i]['url_suffix']}\n\n"
             i += 1
         await m.edit(text, disable_web_page_preview=True)
     except Exception as e:
