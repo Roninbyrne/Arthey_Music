@@ -4,7 +4,7 @@ from AnonXMusic import app
 from config import BOT_USERNAME
 
 start_txt = """
-❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛ɴ ʏ ᴋ ᴀ ᴀ ♡゙, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ♡゙ ᴍ ᴜ s ɪ ᴄ"""
+❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ 𝐀𝐫𝐭𝐡𝐞𝐲 ♡゙, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐫𝐭𝐡𝐞𝐲 ♡゙ ᴍ ᴜ s ɪ ᴄ"""
 
 
 
@@ -13,8 +13,8 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/the_friendz"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/LOCO-PILOT/MUSIC")
+          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/bsbaaass"),
+          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/babaaasaaa")
           ],
     ]
     
