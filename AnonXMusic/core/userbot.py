@@ -67,13 +67,13 @@ class Userbot(Client):
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"❖ Assistant Started as ➥ {self.one.name}")
+            LOGGER(__name__).info(f"❖ Assistant Started as  {self.one.name}")
 
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("roy_editx")
-                await self.one.join_chat("choti_bachii")
+                await self.two.join_chat("phoenixXsupport")
+                await self.one.join_chat("Grabber_memes")
             except:
                 pass
             assistants.append(2)
