@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
     ],
 ]
 
@@ -50,9 +50,7 @@ async def instatus(app, message):
 ● ᴢᴏᴍʙɪᴇs ➥ {deleted_acc} 
 ● ʙᴀɴɴᴇᴅ ➥ {banned} 
 ● ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➥ {premium_acc} 
-● ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➥ {timelog} 
-
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐  **""", reply_markup=InlineKeyboardMarkup(EVAA),)
+● ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➥ {timelog} reply_markup=InlineKeyboardMarkup(EVAA),)
     else:
         sent_message = await message.reply_text("✦ ONLY ADMINS CAN USE THIS !")
         await sleep(5)
