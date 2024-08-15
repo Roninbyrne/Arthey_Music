@@ -48,7 +48,7 @@ async def must_join_channel(app: Client, msg: Message):
                         [
                             [
                                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/arona_update"),
-                                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=link),
+                                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/phoenixXsupport"),
                             ]
                         ]
                     )
