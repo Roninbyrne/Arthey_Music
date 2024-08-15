@@ -5,7 +5,7 @@ from AnonXMusic import app
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
     ],
 ]
 
@@ -44,7 +44,7 @@ def generate_info(client, message):
         
         f"**๏ ᴢɪᴘᴄᴏᴅᴇ ➠** {zipcode}\n\n"
 
-        f"✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"
+        f"✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ 𝐀𝐫𝐭𝐡𝐞𝐲"
     )
 ###
     
