@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
     ],
 ]
 
@@ -32,7 +32,6 @@ infotext = (
     " ● ʟᴀsᴛ ɴᴀᴍᴇ ➥ {last_name}\n"
     " ● ᴜsᴇʀɴᴀᴍᴇ ➥ @{username}\n"
     " ● ʟᴀsᴛ sᴇᴇɴ ➥ {last_online}\n\n"
-    " ❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"
 )
 
 
