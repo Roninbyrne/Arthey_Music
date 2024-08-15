@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Roninbyrne/MusicXbaba",
+    "https://github.com/Roninbyrne/Arthey_Music",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
