@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/?startgroup=true"),
     ],
 ]
 
@@ -17,7 +17,7 @@ def weather(client, message):
         weather_url = f"https://wttr.in/{location}.png"
         
         # Reply with the weather information as a photo
-        message.reply_photo(photo=weather_url, caption="✦ ʜᴇʀᴇ's ᴛʜᴇ ᴡᴇᴀᴛʜᴇʀ ғᴏʀ ʏᴏᴜʀ ʟᴏᴄᴀᴛɪᴏɴ.\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
+        message.reply_photo(photo=weather_url, caption="✦ ʜᴇʀᴇ's ᴛʜᴇ ᴡᴇᴀᴛʜᴇʀ ғᴏʀ ʏᴏᴜʀ ʟᴏᴄᴀᴛɪᴏɴ.\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ 𝐀𝐫𝐭𝐡𝐞𝐲", reply_markup=InlineKeyboardMarkup(EVAA),)
     except IndexError:
         # User didn't provide a location
         message.reply_text("✦ Please provide a location. ♥︎ Use /weather NEW YORK")
