@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
     ],
 ]
 
@@ -63,7 +63,7 @@ async def _packkang(app :app,message):
     if message.reply_to_message.sticker.is_animated or  message.reply_to_message.sticker.is_video:
         return await txt.edit("ʀᴇᴘʟʏ ᴛᴏ ᴀ ɴᴏɴ-ᴀɴɪᴍᴀᴛᴇᴅ sᴛɪᴄᴋᴇʀ")
     if len(message.command) < 2:
-        pack_name =  f'{message.from_user.first_name}_sticker_pack_by_@Nykaaxbot'
+        pack_name =  f'{message.from_user.first_name}_sticker_pack_by_@Arthey_bot'
     else :
         pack_name = message.text.split(maxsplit=1)[1]
     short_name = message.reply_to_message.sticker.set_name
