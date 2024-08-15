@@ -110,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💌 ᴡʜɪsᴘᴇʀ",
-            description=f"@NykaaXbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**๏ ᴜsᴀɢᴇ ➠**\n\n@NykaaXbot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@NykaaxBot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
+            description=f"@Arthey_bot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**๏ ᴜsᴀɢᴇ ➠**\n\n@Arthey_bot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@Arthey_bot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
             thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
             reply_markup=switch_btn
         )
