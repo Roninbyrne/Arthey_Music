@@ -54,7 +54,7 @@
 - Finally run the bot by :
   `bash start`
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
-  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱
+  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
 
 <h3 align="center">
     ─「 sᴜᴩᴩᴏʀᴛ 」─
