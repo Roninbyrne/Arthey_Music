@@ -19,7 +19,7 @@ async def wish(_, m):
     wish = f"❖ ʜᴇʏ {m.from_user.first_name}"
     wish += f"\n\n● ʏᴏᴜʀ ᴡɪꜱʜ ➥ {text} "
     wish += f"\n● ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ➥ {wish_count}%"
-    wish += f"\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"
+    wish += f"\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ 𝐀 𝐫 𝐭 𝐡 𝐞 𝐲"
     
     await app.send_animation(
         chat_id=m.chat.id,
