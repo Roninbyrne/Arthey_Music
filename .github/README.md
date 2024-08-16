@@ -34,6 +34,6 @@
 </p>
 
 <p align="center">
-<a href="https://telegram.me/mr_sukkun"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Bot"></a>
+<a href="https://telegram.me/Arthey_bot"><img src="https://img.shields.io/badge/-ᴅᴇᴍᴏ%20ʙᴏᴛ-pink.svg?style=for-the-badge&logo=Freelancer"></a>
 </p>
 
