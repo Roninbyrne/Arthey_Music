@@ -28,7 +28,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/noob-mukesh/Combo/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/Roninbyrne/Arthey_Music/blob/master/sample.env)
 - Upgrade and Update by :
   `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
