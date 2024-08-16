@@ -33,11 +33,7 @@
 <a href="https://telegram.me/phoenixXsupport"><img src="https://img.shields.io/badge/-Support%20Group-pink.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-
-               ─「 ᴅᴇᴍᴏ ʙᴏᴛ 」─
-</h3>
-
 <p align="center">
-<a href="https://telegram.me/Arthey_bot"><img src="https://img.shields.io/badge/-ᴅᴇᴍᴏ %20ʙᴏᴛ-pink.svg?style=for-the-badge&logo=Github"></a>
-</p>
+<a href="https://telegram.me/mr_sukkun"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
